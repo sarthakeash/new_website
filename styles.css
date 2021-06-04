@@ -22,6 +22,7 @@ left: 50%;
 transform: translate(-50%, 0);
 top: 0;
 overflow: hidden;
+z-index: 100;
 
 }
 
@@ -98,7 +99,7 @@ margin-top: 110px;
 
 .about-info{
 
-    margin-left: 90px;
+    margin-left: 10%
 }
 
 .about-info h2{
@@ -304,6 +305,7 @@ border-radius: 16px;
     justify-content: center;
     align-items: center;
 }
+
 input{
 margin-top: 20px;
 width: 340px;
@@ -318,3 +320,32 @@ input:nth-child(4){
     height: 100px;
 }
 
+.contact-section .heading{
+
+margin-top: 100px;
+
+}
+.contact-section{
+    margin-bottom: 100px;
+}
+
+
+.submit-contact {
+    border: none;
+    background: #ff8552;
+    padding: 15px 40px;
+    font-size: 15px;
+    color: #Ffffff;
+    border-radius: 15px;
+    font-weight: 500;
+ 
+    transition: all 0.5s ease-in-out;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.submit-contact:hover{
+    transform: translateY(-3px);
+}
